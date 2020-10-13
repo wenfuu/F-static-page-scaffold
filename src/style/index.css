@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -57,4 +58,20 @@ ul {
   color: #fff;
   font-size: 13px;
   margin-left: auto;
+}
+
+.main {
+  width: 980px;
+  height: 100%;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main h2 {
+  font-size: 25px;
+}
+
+.main p {
+  font-size: 15px;
 }
