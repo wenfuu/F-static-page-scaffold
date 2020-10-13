@@ -75,3 +75,50 @@ ul {
 .main p {
   font-size: 15px;
 }
+
+.figure-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.figure {
+  height: 467px;
+  width: 478px;
+  background-color: #fff;
+  padding: 24px;
+  margin: 40px auto;
+  border: 1px solid #dddfe2;
+  border-radius: 7px;
+}
+
+.figure img,
+.figure button {
+  display: flex;
+  margin: 0 auto;
+}
+
+.figure h3,
+.figure p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.figure p {
+  color: #90949c;
+}
+
+.figure button {
+  height: 28px;
+  width: 48px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f6f7;
+  color: #444950;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #dadde1;
+  margin-top: 95px;
+}
