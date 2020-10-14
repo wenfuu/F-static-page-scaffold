@@ -68,15 +68,15 @@ ul {
   margin: 0 auto;
 }
 
-.main h2 {
+.main-headline {
   font-size: 25px;
 }
 
-.main p {
+.main-content {
   font-size: 15px;
 }
 
-.figure-content {
+.figure-container {
   display: flex;
   justify-content: space-between;
 }
@@ -92,24 +92,24 @@ ul {
 }
 
 .figure img,
-.figure button {
+.figure-button {
   display: flex;
   margin: 0 auto;
 }
 
-.figure h3,
-.figure p {
+.figure-headline,
+.figure-content {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-bottom: 12px;
 }
 
-.figure p {
+.figure-content {
   color: #90949c;
 }
 
-.figure button {
+.figure-button {
   height: 28px;
   width: 48px;
   align-items: center;
